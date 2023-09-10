@@ -1,0 +1,23 @@
+
+.news-block {
+   display: flex;
+   justify-content: space-between;
+}
+
+.news-column {
+   width: 33%;
+   padding: 10px;
+   box-sizing: border-box;
+}
+
+.news-data, 
+.news-title {
+   white-space: normal;
+   overflow-wrap: break-word;
+}
+
+.news-description {
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}
